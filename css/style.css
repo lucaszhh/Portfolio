@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+
+.header{
+    background-color: #122223;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    height: 5vh;
+}
+.paginas{
+    display: flex;
+}
+.paginas li{
+    margin: 0 1rem;
+}
+.banner{
+    background-color: #122223;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+.banner .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services{
+    background-color:#122223;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+}
+.services .contenedorCards{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    width: 20%;
+    background-color: blue;
+    margin: 1rem;
+}
