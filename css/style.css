@@ -1,9 +1,21 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 ul{
     list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* HEADER */
+header{
+    position: sticky;
+    top:0px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .header{
@@ -14,6 +26,7 @@ ul{
     justify-content: space-between;
     padding: 1.5rem;
     height: 5vh;
+    
 }
 .paginas{
     display: flex;
@@ -21,6 +34,9 @@ ul{
 .paginas li{
     margin: 0 1rem;
 }
+
+
+/* BANNER */
 .banner{
     background-color: #122223;
     color: #FFFFFF;
@@ -28,30 +44,52 @@ ul{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 20vh;
+    padding: 20px 0;
 }
 .banner .logo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
 }
+
+/* SERVICIOS */
 .services{
     background-color:#122223;
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 30vh;
+    border-bottom: rgba(0, 0, 0, 0.2) solid 2px;
+    
 }
 .services .contenedorCards{
-    background-color: aqua;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 0;
+    color: #000000;
 }
 .card{
-    display: flex;
     width: 20%;
-    background-color: blue;
+    background-color: #C4C4C4;
     margin: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
 }
+.fa-solid{
+    font-size: 1.5rem;
+}
+.textoCard{
+    font-size: 1.2rem;
+}
+
+/* PROYECTOS */
