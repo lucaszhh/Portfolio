@@ -28,11 +28,20 @@ header{
     height: 5vh;
     
 }
+.titulo a:hover{
+    color: #3d7377;
+}
+
 .paginas{
     display: flex;
 }
-.paginas li{
-    margin: 0 1rem;
+.paginas li a{
+    /* margin: 0 1rem; */
+    padding: 1rem 2rem;
+}
+
+.paginas li a:hover{
+    background-color: #3d7377;
 }
 
 
@@ -52,7 +61,12 @@ header{
     align-items: center;
     padding-bottom: 10px;
 }
-
+.here{
+    color: #3d7377;
+}
+.here:hover{
+    color: tomato;
+}
 /* SERVICIOS */
 .services{
     background-color:#122223;
@@ -76,20 +90,27 @@ header{
     width: 20%;
     background-color: #C4C4C4;
     margin: 1rem;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 180px;
+}
+.card:hover{
+    background-color: #122223;
+    border: #3d7377 solid 2px;
+    color: #FFFFFF;
 }
 .fa-solid{
     font-size: 1.5rem;
 }
 .textoCard{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    padding-top: 20px;
+    height: 50%;
 }
 
 /* PROYECTOS */
