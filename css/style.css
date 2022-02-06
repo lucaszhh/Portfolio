@@ -114,3 +114,23 @@ header{
 }
 
 /* PROYECTOS */
+.portfolio{
+    color:#FFFFFF;
+    background-color: #122223;
+}
+
+.portafolio-titulo{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.imagenProyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-proyecto{
+    width: 500px;
+}
