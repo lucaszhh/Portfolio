@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 ul{
     list-style: none;
@@ -53,13 +56,13 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: 60px 0 80px;
 }
 .banner .logo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .here{
     color: #3d7377;
@@ -117,20 +120,130 @@ header{
 .portfolio{
     color:#FFFFFF;
     background-color: #122223;
+    border-bottom: rgba(0, 0, 0, 0.2) solid 2px;
 }
 
-.portafolio-titulo{
+.portafolio-titulo, .contactme, .tituloservice{
     padding-top: 10px;
     text-align: center;
+    font-size: 2rem;
+    color:#FFFF;
+}
+.cardproyecto{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border: #C4C4C4 solid 2px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
-.imagenProyecto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+ .imagenProyecto{
+    width: 60%;
+} 
 
 .img-proyecto{
-    width: 500px;
+    width: 100%;
+}
+.descriptionProyecto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    padding: 50px 20px;
+}
+.nombreProyecto{
+    margin-bottom: 20px;
+}
+.descripcionProyecto{
+    margin: 20px 20px 40px;
+}
+.verMas{
+    padding: 10px 20px;
+    
+    width: 100px;
+    text-align: center;
+    color: black;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+}
+.verMas:hover{
+    border: #C4C4C4 solid 2px;
+    background-color: #122223;
+    color: #C4C4C4;
+}
+
+/* Formulario */
+
+.formulario{
+    background-color: #122223;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #C4C4C4;
+    border: #FFFF solid 5px;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 20px;
+}
+.valorimput{
+    padding: 5px;
+}
+.imputform, textarea{
+    padding: 5px;
+    border-radius: 10px;
+    resize: none;
+    border: #000 solid 1px;
+}
+textarea{
+    height: auto;
+    margin-bottom: 10px;
+}
+.botonera { 
+    display: flex;
+    justify-content: space-around;
+
+}
+.btns{ 
+    border: #122223 solid 2px;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.btnsubmit
+{ 
+    background-color: #122223;
+    border: #000 solid 2px;
+    color: #C4C4C4;
+}
+
+/* FOOTER */
+
+.footer{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C4C4C4;
+}
+.titulofooter{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.iconos{
+    margin-bottom: 20px;
+}
+.iconfooter{
+    font-size: 50px;
+    margin: 0px 40px;
+}
+.derechos{
+    background-color: #000;
+    color: #C4C4C4;
+    text-align: center;
+    padding: 5px;
 }
