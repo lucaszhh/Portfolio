@@ -56,14 +56,17 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 60px 0 80px;
+    padding: 60px 30px 80px;
+    text-align: center;
 }
+
 .banner .logo{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
 }
+
 .here{
     color: #3d7377;
 }
@@ -88,6 +91,7 @@ header{
     align-items: center;
     padding: 10px 0;
     color: #000000;
+    flex-wrap: wrap;
 }
 .card{
     width: 20%;
@@ -100,7 +104,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 180px;
+    height: 180px ;
 }
 .card:hover{
     background-color: #122223;
@@ -132,6 +136,7 @@ header{
 .cardproyecto{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 20px;
     border: #C4C4C4 solid 2px;
     border-radius: 20px;
@@ -229,6 +234,7 @@ textarea{
     flex-direction: column;
     align-items: center;
     background-color: #C4C4C4;
+    text-align: center;
 }
 .titulofooter{
     margin: 20px;
