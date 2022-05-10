@@ -243,6 +243,12 @@ textarea{
 .iconos{
     margin-bottom: 20px;
 }
+.iconos a {
+    color: #000
+}
+.iconos a:hover {
+    color: #3d7377;
+}
 .iconfooter{
     font-size: 50px;
     margin: 0px 40px;
@@ -253,3 +259,66 @@ textarea{
     text-align: center;
     padding: 5px;
 }
+
+.menu {
+    display: flex
+}
+.menu a span:first-child {
+    display: inline-block;
+    
+}
+.menu a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 50px;
+  }
+   
+  .menu a span:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    display: none;
+    
+  }
+  .menu a span {
+    transition: transform 0.3s ease-out;
+  }
+   
+  .menu a:hover span:first-child {
+    transform: translateY(100%);
+  }
+   
+  .menu a:hover span:last-child {
+    transform: none;
+    display: flex;
+  }
+  .menu[data-animation="to-top"] a span:last-child {
+    transform: translateY(100%);
+  }
+   
+  .menu[data-animation="to-top"] a:hover span:first-child {
+    transform: translateY(-100%);
+  }
+   
+  .menu[data-animation="to-right"] a span:last-child {
+    transform: translateX(-100%);
+  }
+   
+  .menu[data-animation="to-right"] a:hover span:first-child {
+    transform: translateX(100%);
+  }
+   
+  .menu[data-animation="to-left"] a span:last-child {
+    transform: translateX(100%);
+  }
+   
+  .menu[data-animation="to-left"] a:hover span:first-child {
+    transform: translateX(-100%);
+  }
