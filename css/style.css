@@ -47,6 +47,9 @@ header{
     background-color: #3d7377;
 }
 
+.burguernav{
+    display: none;
+}
 
 /* BANNER */
 .banner{

@@ -11,7 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/styleresposive.css">
-    <script src="./scripts/index.js"></script>
+    <script src="./script/index.js"></script>
 
 </head>
 
@@ -26,8 +26,16 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="burguernav">
+                <button onclick=" {desplegarMenu()} " class="burguernav_button"><i class="fa-solid fa-bars"></i></button>
+            </div>
         </div>
     </header>
+    <ul class="burgermenu visible">
+        <li><a href="#service">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a> </li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
     <main>
         <div class="banner">
             <div class="logo">
@@ -115,8 +123,7 @@
                 </a>
                 <a href="mailto:lucaszarandon24@gmail.com?Subject=Vi%20tu%20portfolio%20y%20estoy%20interesado%20en%20tus%20servicios%20..." target="_blank">
                     <span><i class="fa-solid fa-at iconfooter"></i></span>
-                    <span >lucaszarandon24@gmail.com </span>
-                    
+                    <span >E-mail</span>
                 </a>
                 <a href="https://github.com/lucaszhh" target="_blank">
                     <span><i class="fa-brands fa-github-square iconfooter"></i></span>

@@ -6,6 +6,39 @@
 
 @media only screen and (max-width: 600px) {
 
+    .nav {
+        display: none;
+    }
+    .burguernav{
+        display: block;
+    }
+
+    .burguernav_button{
+        background-color: #122223;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+    .burgermenu{
+        background-color: #122223;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .visible{
+        display: none;
+    }
+
+    .burgermenu li{
+        padding: 15px 100%;
+
+    }
+
+    .burgermenu li:hover{
+        background-color: #3d7377;
+    }
+
     .contenedorCards{
         flex-direction: column;
     }
