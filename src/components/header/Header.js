@@ -5,13 +5,13 @@ const Header = () => {
     const navigate = useNavigate();
     return (
         <header>
-            <div class="header">
-                <h2 class="titulo"><a href="#top" onClick={() => navigate("/")}>Lucas Zarandón</a></h2>
+            <div className="header">
+                <h2 className="titulo"><a href="#top" onClick={() => navigate("/")}>Lucas Zarandón</a></h2>
                 <nav>
-                    <ul class="nav paginas">
-                        <li><a href="#service" onClick={() => navigate("/service")}>Services</a></li>
-                        <li><a href="#portfolio" onClick={() => navigate("/portfolio")}>Portfolio</a> </li>
-                        <li><a href="#contact" onClick={() => navigate("/contact")}>Contact</a></li>
+                    <ul className="nav paginas">
+                        <li><a href="#top" onClick={() => navigate("/service")}>Services</a></li>
+                        <li><a href="#top" onClick={() => navigate("/portfolio")}>Portfolio</a> </li>
+                        <li><a href="#top" onClick={() => navigate("/contact")}>Contact</a></li>
                     </ul>
                 </nav>
             </div>
