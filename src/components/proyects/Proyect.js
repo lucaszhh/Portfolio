@@ -10,7 +10,7 @@ const Proyect = ({proyect}) => {
         <h2 className="nombreProyecto">{proyect.title}</h2>
         <p className="descripcionProyecto">{proyect.description}</p>
         <p>
-          <a className="verMas" href={proyect.host} target="_blank">
+          <a className="verMas" href={proyect.host} target="_blank" rel="noreferrer">
             Show more ...
           </a>
         </p>
